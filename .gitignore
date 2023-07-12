@@ -1,0 +1,28 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+#Build
+public/css/main.css
+
+# API keys and secrets
+.env.prod
+
+# Dependency directory
+node_modules
+dist
+build
+bower_components
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# Ignore built ts files
+public/**/*
+
